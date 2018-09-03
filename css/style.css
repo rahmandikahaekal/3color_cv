@@ -132,7 +132,7 @@ a:hover {
   width: 5px;
   height: 100%;
   position: absolute;
-  left: 25px;
+  left: 35px;
   top: 0;
   content: ' ';
   display: block;
@@ -152,7 +152,7 @@ a:hover {
   float: left;
 }
 #education .year{
-  width: 10%;
+  width: 11%;
   background: #fff;
   padding: 10px;
   font-size: 1.5em;
@@ -160,7 +160,7 @@ a:hover {
   display: inline-block;
 }
 #education .description{
-  width: 80%;
+  width: 85%;
   display: inline-block;
   background: #eee;
   margin-bottom: 10px;
@@ -215,6 +215,19 @@ a:hover {
   font-size: 1.2em;
   line-height: 1.5em;
 }
+
+/*=======================
+        Portfolio    
+=======================*/
+.port {
+  border: 1px solid #F0563D;
+  border-radius: 15px;
+}
+img.port {
+  margin: 5px;
+  padding: 0px;
+}
+
 
 /*=======================
         CONTACT    
@@ -329,4 +342,16 @@ a:hover {
 }
 #language-skills .skill .icons-red{
   background: url('../img/star-red.png') no-repeat;
+}
+
+/*=======================
+        Responsive    
+=======================*/
+@media (max-width: 375px) {
+  #education .description {
+    width: 80%;
+  }
+  #education:before {
+    left: 20px;
+  }
 }
