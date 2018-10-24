@@ -343,15 +343,3 @@ img.port {
 #language-skills .skill .icons-red{
   background: url('../img/star-red.png') no-repeat;
 }
-
-/*=======================
-        Responsive    
-=======================*/
-@media (max-width: 375px) {
-  #education .description {
-    width: 80%;
-  }
-  #education:before {
-    left: 20px;
-  }
-}
